@@ -64,8 +64,7 @@ filter_listings <- function(df, keyword) {
 send_listings <- function(x) {
   textBelt_url <- "https://textbelt.com/text"
   textBelt_data <- list(
-    #phone = '+529981434159',
-    phone = '+17853074118',
+    phone = '+1XXXXXXXX',
     message = paste(unlist(x), collapse = " | "),
     #message = "Test",
     key = 'API_KEY'
